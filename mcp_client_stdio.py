@@ -518,7 +518,7 @@ class MCPClient:
         
     async def chat_loop(self):
         """Run interactive chat loop, process user input and generate responses"""
-        print("\nMCP Client Started!\nType queries or 'quit' to exit, 'clear' to clear history.")
+        print("\nMCP Client Started!\nType queries or 'quit' to exit, 'clear' to clear history, 'refresh' to refresh the tools cache, 'help' to show more information.")
         print("Conversation history is maintained between queries.")
         
         try:
