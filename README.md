@@ -3,11 +3,11 @@
 ### Features:  
 * Supports streaming output
 * Supports multi-turn conversations    
-* Support connecting to multiple MCP servers through modifying `mcp_config.json` file  
-* Support multiple parameters,such as `-c` `-r` `-m` etc. Type `-h` for more help information  
-* Stdio(Local) MCP server only, stay tuned...
+* Supports connecting to multiple MCP servers through modifying `mcp_config.json` file  
+* Supports multiple parameters,such as `-c` `-r` `-m` etc. Type `-h` for more help information  
+* Supports stdio(Local) MCP server only, stay tuned...
 
-### Prerequisite:  
+### Prerequisites:  
 * Python 3.12 or higher  
 * Configured AWS credentials for accessing BedRock  
 * Installed UV package manager  
