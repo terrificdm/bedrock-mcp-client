@@ -7,7 +7,7 @@
 * Supports stdio(Local) MCP server only, stay tuned...
 
 ### Prerequisites:  
-* Python 3.12 or higher  
+* Python 3.10 or higher  
 * Configured AWS credentials for accessing BedRock  
 * Installed UV package manager  
 
