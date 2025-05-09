@@ -1,8 +1,7 @@
 # MCP client example for AWS BedRock  
 
 ### Features:  
-* Supports streaming output
-* Supports multi-turn conversations    
+* Supports multi-turn conversations with streaming output     
 * Supports connecting to multiple MCP servers through modifying `mcp_config.json` file  
 * Supports multiple parameters,such as `-c` `-r` `-m` etc. Type `-h` for more help information  
 * Supports stdio(Local) MCP server only, stay tuned...
