@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "us-weather-mcp-server": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "mcp-server-weather",
+        "run",
+        "weather.py"
+      ]
+    },
+    "awslabs.aws-documentation-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "awslabs.aws-documentation-mcp-server@latest"
+      ]
+    }   
+  }
+}

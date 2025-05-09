@@ -1,0 +1,10 @@
+[project]
+name = "bedrock-mcp-client"
+version = "0.1.0"
+description = "MCP client example for Bedrock"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.38.12",
+    "mcp[cli]>=1.8.0",
+]
