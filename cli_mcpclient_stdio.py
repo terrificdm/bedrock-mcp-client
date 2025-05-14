@@ -67,7 +67,7 @@ class Message:
 class MCPClient:
     # Default configuration, can be overridden during initialization
     DEFAULT_CONFIG = {
-        "model_id": "anthropic.claude-3-sonnet-20240229-v1:0",
+        "model_id": "us.anthropic.claude-3-7-sonnet-20250219-v1:0",
         "region_name": "us-east-1",
         "max_tokens": 1000,
         "temperature": 0

@@ -1,4 +1,4 @@
-# MCP client example for AWS BedRock  
+# MCP client for AWS BedRock  
 
 ### Features:  
 * Supports multi-turn conversations with streaming output     
