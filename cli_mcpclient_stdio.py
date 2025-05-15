@@ -58,7 +58,7 @@ class Message:
                     "json": {
                         "type": "object",
                         "properties": tool["input_schema"]["properties"],
-                        "required": tool["input_schema"]["required"]
+                        "required": tool["input_schema"].get("required", [])
                     }
                 }
             }
