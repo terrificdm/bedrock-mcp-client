@@ -14,12 +14,6 @@
       "args": [
         "awslabs.aws-documentation-mcp-server@latest"
       ]
-    },
-    "playwright": {
-      "command": "npx",
-      "args": [
-        "@playwright/mcp@latest"
-      ]
     }
   }
 }
