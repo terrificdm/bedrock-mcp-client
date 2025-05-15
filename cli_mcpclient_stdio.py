@@ -2,12 +2,18 @@ import asyncio
 import sys
 import boto3
 import json
+import io
 
 from typing import Optional, List, Dict, Any
 from contextlib import AsyncExitStack
 from dataclasses import dataclass
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
+
+# 设置标准输入输出的编码为 UTF-8
+sys.stdin = io.TextIOWrapper(sys.stdin.buffer, encoding='utf-8', errors='replace')
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 
 @dataclass
