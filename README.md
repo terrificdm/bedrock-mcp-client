@@ -23,5 +23,5 @@
 * type `uv run mcp_client_stdio.py -h` for more useages
 
 ### Update:
-* Added `cli_mcpclient_strands.py` as an example for leveraging Strands-Agents to build CLI tool  
+* Added `cli_mcpclient_strands.py` and `streamlit_mcpclient_strands.py` as examples for leveraging Strands-Agents to build MCP Client tool  
 * Strands-Agents is an easy and efficient framework to build agent applications, refer to [Strands-Agents](https://strandsagents.com/latest/) for more details
